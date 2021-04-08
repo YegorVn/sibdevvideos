@@ -1,0 +1,160 @@
+/* general */
+html,
+body,
+.container,
+#root{
+    background: #FAFAFA;
+    height: 110%;
+    width: 100%;
+}
+
+/* login */
+
+.inputs{
+    width: 60%;
+}
+
+.login-form{
+    position: absolute;
+    margin-right: auto !important;
+    left: 32% !important;
+    top: 25% !important;
+    width: 35%;
+    height: 50%;
+    background: #fff;
+    border: 1px solid rgba(39, 39, 39, 0.1);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fields-wrapper{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+
+.field{
+    margin-top: 10%;
+    width: 65%;
+    height: 13% !important;
+}
+
+/* header */
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    margin-top:  21px !important;
+    margin-bottom:  10px !important;
+    padding: 0 20px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.logo{
+    float: left;
+    width: 88px;
+    height: 88px;
+    background-size: cover;
+    background-image: url('./sibdev-logo.png');
+}
+
+
+
+.favourites{
+   margin-left: auto;
+   margin-right: auto;
+    width: 72%;
+}
+
+/* searchPage */
+.video-item{
+    margin-top: 50px;
+}
+
+.search{
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.ant-modal-footer{
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.ant-modal-header{
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.annotation{
+    margin-top: 1%;
+    width: 70%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.grid{
+    display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+    width: 75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+}
+
+.ant-card-body{
+    padding: 0px !important;
+}
+
+.ant-card-cover > * {
+    display: flex !important;
+    width: 100%;
+    height: 20vh !important;
+}
+
+.ant-card{
+    background: #FAFAFA !important;
+    border: none !important;
+}
+
+.ant-card-meta-title{
+    margin-top: 8px;
+}
+
+.ant-card-meta-description{
+    line-height: 1.5em;
+    height: 3em;   
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.ant-tabs-ink-bar {
+    background: #FAFAFA !important;
+} 
+
+.ant-tabs-top > .ant-tabs-nav::before, .ant-tabs-bottom > .ant-tabs-nav::before, .ant-tabs-top > div > .ant-tabs-nav::before, .ant-tabs-bottom > div > .ant-tabs-nav::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #FAFAFA !important;
+    content: '';
+}
